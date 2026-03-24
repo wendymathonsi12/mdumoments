@@ -2,170 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Integrated Slider</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-       <nav>
-        <a href="">Home</a>
-        <a href="">Contact</a>
-        <a href="">Book</a> 
-    </nav>
-    
-   </header>    
-   <div class="carousel">
-    <div class="list">
-        <div class=" item">
-            //image 
-            <div class="content">
-                  <div class="author">Birthday</div>
-                  <div class="title">DESIGN SLIDER </div>
-                  <div class="topic">EVENTS </div>
-                  <div class="des">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sed quis placeat aut laborum, nam tempore veritatis nihil inventore ipsa ducimus corporis iste eos? Odio libero assumenda ipsam distinctio unde!
-                  </div>
-                  <div class="buttons">
-                      <button>SEE MORE</button>
-                      <button>VIEW GALLERY</button>
-                  </div>
+    <header>
+        <nav>
+            <a href="">HOME</a>
+            <a href="">GALLERY</a>
+            <a href="">BOOK</a> 
+        </nav>
+    </header>    
+
+    <div class="carousel" id="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="image/img1.jpg" alt="Birthday">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title"></div>
+                    <div class="topic">EVENTS</div>
+                    <div class="des">EXPERIENCE YOUR PHOTOGENIC JOURNEY WITH US, WE DONT JUST CAPTURE WE CREATE MEMORIES.</div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> <div class="item">
+                <img src="image/img2.jpg" alt="Wedding">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title">WEDDING</div>
+                    <div class="topic">CEREMONIES</div>
+                    <div class="des">24/7 SUPPORTED, BACKED UP AND CLOUD FRIEND PHOTOS FOR EASY ACCESS TO YOUR MEMENTOS</div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> <div class="item">
+                <img src="image/img3.jpg" alt="Wedding">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title">GRADUATIONS</div>
+                    <div class="topic">PHOTOGRAPHY</div>
+                    <div class="des">SPECIILISED POTRAITS, REGULATED LIGHTING ENHANCING QUALITY IMAGES</div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> <div class="item">
+                <img src="image/img4.jpg" alt="Wedding">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title">BIRTHDAY</div>
+                    <div class="topic">ANNIVERSARIES</div>
+                    <div class="des">FULL HIGH DEFINITION VIDEOS, LONG AND SHORT RANGE SHOTS </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> <div class="item">
+                <img src="image/img5.jpg" alt="Wedding">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title">EVENTS</div>
+                    <div class="topic">LAUNCHING</div>
+                    <div class="des">360 VIDEO, DRONE AND LANDSCAPE SHOTS</div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> <div class="item">
+                <img src="image/img6.jpg" alt="Wedding">
+                <div class="content">
+                    <div class="author">MDU MOMENTS PHOTOGRAPHY</div>
+                    <div class="title">CUSTOMISED</div>
+                    <div class="topic">EVENTS</div>
+                    <div class="des">STOP WAIT...YOU NEED PHOTOS, GOT YOU</div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>VIEW GALLERY</button>
+                    </div>
+                </div>
+            </div> </div>
+
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/img1.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img5.jpg">
+            </div>
+            <div class="item">
+                <img src="image/img6.jpg">
             </div>
         </div>
-        <div class=" item">
-            //image 
-            <div class="content">
-                  <div class="author">LUNDEV</div>
-                  <div class="title">DESIGN SLIDER< /div>
-                  <div class="topic">EVENTS</div>
-                  <div class="des">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sed quis placeat aut laborum, nam tempore veritatis nihil inventore ipsa ducimus corporis iste eos? Odio libero assumenda ipsam distinctio unde!
-                  </div>
-                  <div class="buttons">
-                      <button>SEE MORE</button>
-                      <button>VIEW GALLERY</button>
-                  </div>
-            </div>
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
         </div>
-        <div class=" item">
-            //image 
-            <div class="content">
-                  <div class="author">LUNDEV</div>
-                  <div class="title">DESIGN SLIDER< /div>
-                  <div class="topic">EVENTS</div>
-                  <div class="des">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sed quis placeat aut laborum, nam tempore veritatis nihil inventore ipsa ducimus corporis iste eos? Odio libero assumenda ipsam distinctio unde!
-                  </div>
-                  <div class="buttons">
-                      <button>SEE MORE</button>
-                      <button>VIEW GALLERY</button>
-                  </div>
-            </div>
-        </div>
-        <div class=" item">
-            //image 
-            <div class="content">
-                  <div class="author">LUNDEV</div>
-                  <div class="title">DESIGN SLIDER< /div>
-                  <div class="topic">EVENTS</div>
-                  <div class="des">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sed quis placeat aut laborum, nam tempore veritatis nihil inventore ipsa ducimus corporis iste eos? Odio libero assumenda ipsam distinctio unde!
-                  </div>
-                  <div class="buttons">
-                      <button>SEE MORE</button>
-                      <button>VIEW GALLERY</button>
-                  </div>
-            </div>
-        </div>
-        <div class=" item">
-            //image 
-            <div class="content">
-                  <div class="author">LUNDEV</div>
-                  <div class="title">DESIGN SLIDER< /div>
-                  <div class="topic">EVENTS</div>
-                  <div class="des">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sed quis placeat aut laborum, nam tempore veritatis nihil inventore ipsa ducimus corporis iste eos? Odio libero assumenda ipsam distinctio unde!
-                  </div>
-                  <div class="buttons">
-                      <button>SEE MORE</button>
-                      <button>VIEW GALLERY</button>
-                  </div>
-            </div>
-        </div>
+        <div class="time"></div>
     </div>
 
-
-    <div class="thumbnails">
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="content">
-                   <div class="title">
-                          nae
-                   </div>
-                    <div  class="des">
-                        DEs
-                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="arrows">
-        <button id="prev"></button>
-        <button id="next"></button>
-    </div>
-    <div class="time">
-        
-    </div>
-   </div>
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
