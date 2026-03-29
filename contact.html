@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK | MDU MOMENTS PHOTOGRAPHY</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="booking-page">
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">BOOK</a> 
+        </nav>
+    </header>    
+
+    <div class="carousel" id="carousel">
+        <div class="list">
+            <div class="item"><img src="https://i.postimg.cc/rwHHDNh4/img1.jpg" alt="Birthday"></div>
+            <div class="item"><img src="https://i.postimg.cc/zGHjcZjN/img2.jpg" alt="Wedding"></div>
+            <div class="item"><img src="https://i.postimg.cc/D0zQQtZR/img3.jpg" alt="Graduations"></div>
+            <div class="item"><img src="https://i.postimg.cc/6QLCk9GX/img4.jpg" alt="Anniversaries"></div>
+            <div class="item"><img src="https://i.postimg.cc/BZw297tF/img5.jpg" alt="Events"></div>
+            <div class="item"><img src="https://i.postimg.cc/9fpqxJv2/img6.jpg" alt="Custom"></div>
+        </div>
+
+        <div class="booking-overlay">
+            <form class="booking-form">
+                <h2>Secure Your Moment</h2>
+                <p>Fill out the details below and we’ll get back to you shortly.</p>
+                
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected>Select Event Type</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="birthday">Birthday / Anniversary</option>
+                        <option value="graduation">Graduation</option>
+                        <option value="event">Corporate / Launch</option>
+                    </select>
+                    <input type="date" required title="Booking Date">
+                </div>
+
+                <textarea placeholder="Tell us more about your vision..." rows="4"></textarea>
+
+                <button type="submit" class="submit-btn">SEND BOOKING REQUEST</button>
+            </form>
+        </div>
+
+        <div class="thumbnail">
+            </div>
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>ABOUT US</h4>
+            <p>Mdu Moments Photography specializes in capturing your most precious milestones with precision and creativity.</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="book.html">Book Now</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>FOLLOW US</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="TikTok">TIKTOK</a>
+                <a href="#" aria-label="Facebook">FACEBOOK</a>
+                <a href="#" aria-label="Instagram">INSTAGRAM</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 MDU MOMENTS PHOTOGRAPHY. ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+</html>
